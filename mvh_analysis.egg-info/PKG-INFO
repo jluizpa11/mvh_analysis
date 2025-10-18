@@ -1,0 +1,45 @@
+Metadata-Version: 2.4
+Name: mvh_analysis
+Version: 0.1.0
+Summary: Workflow for McGhee–von Hippel analysis of titration curves
+Author: João Luiz Petrarca de Albuquerque
+License: MIT
+Project-URL: Homepage, https://github.com/joaoluizpetrarca/mvh_analysis
+Project-URL: Documentation, https://github.com/joaoluizpetrarca/mvh_analysis
+Project-URL: Issues, https://github.com/joaoluizpetrarca/mvh_analysis/issues
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+
+# McGhee-von Hippel Binding Analysis Module
+
+This module implements the **McGhee–von Hippel model** for cooperative ligand–DNA binding.  
+It allows you to **fit experimental titration data** (absorbance, fluorescence, etc.) to extract binding parameters such as:
+
+- **Binding constant (K)**  
+- **Site size (n)**  
+- **Cooperativity parameter (ω)** — optional, for cooperative models  
+
+The model is widely used to describe **intercalative or groove-binding dyes** interacting with DNA or polymers.
+
+---
+
+## 🧪 Features
+
+- Non-linear regression fitting of binding curves (`r` vs `r_Cf`)
+- Supports both **non-cooperative** and **cooperative** binding models
+- Automatic calculation of:
+  - Best-fit parameters and their standard errors
+  - Coefficient of determination (R²)
+  - Optional constraints and bounds
+- CSV import/export compatibility with **UVTools**
+- Publication-ready plots (binding isotherm and residuals)
+
+---
+
+## 📦 Installation
+
+TBD

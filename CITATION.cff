@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use mvh_analysis in your research, please cite this work as follows."
+title: "mvh_analysis: A Python package for McGhee–von Hippel DNA–ligand binding analysis"
+authors:
+  - family-names: "Petrarca De Albuquerque"
+    given-names: "João Luiz"
+license: "MIT"
+version: "0.1.0"
+date-released: "2025-10-05"
+repository-code: "https://github.com/jluizpa11/mvh_analysis"
+keywords:
+  - DNA binding
+  - McGhee–von Hippel
+  - spectroscopy
+  - UV-Vis
+  - ligand interaction
+  - titration
+abstract: >
+  mvh_analysis is a Python package for McGhee–von Hippel DNA–ligand binding analysis.
+  It processes UV–Vis titration data to compute fractional binding, fit the
+  McGhee–von Hippel model, and extract key parameters (K, n), enabling automated,
+  reproducible analysis of DNA–ligand interactions.

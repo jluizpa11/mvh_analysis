@@ -1,0 +1,33 @@
+# === Python build artifacts ===
+__pycache__
+.py[cod]
+.egg-info
+dist
+build
+
+# === Virtual environments ===
+.venv
+env
+.conda
+.env
+
+# === Jupyter & IDE files ===
+.ipynb_checkpoints
+.vscode
+.idea
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Data  temp ===
+.csv
+.xlsx
+.toml
+.log
+.tmp
+.bak
+
+archive/
+notes/
+versions/
